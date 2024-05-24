@@ -1,0 +1,337 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.hero {
+  background: url(./images/hero-bg.svg) top center no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background: url(./images/footer.svg) top center no-repeat;
+  background-size: cover;
+}
+
+.cta {
+  background:url("../src/images/banner2.png") fixed center center;
+  height: 550px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.cta_home{
+  background:url(https://img.freepik.com/premium-photo/innovation-new-idea-light-bulbs-with-gear-new-ideas-technology-business-development_34200-647.jpg) fixed center center;
+  height: 550px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.cta_services{
+  background: url(https://img.freepik.com/free-photo/standard-quality-control-collage_23-2149631015.jpg?size=626&ext=jpg&uid=R118256005&ga=GA1.1.1422770178.1705226081&semt=ais) fixed center center;
+  height: 95vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.cta_product{
+  background: url(https://www.skylinerta.com/imgs/banner02.jpg) fixed center center;
+  height: 95vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.cta_about{
+  background: url(https://t3.ftcdn.net/jpg/05/06/32/62/360_F_506326245_2GtSGEjKLDtpHS0FSkEBs4gV34DmTtS5.jpg) fixed center center;
+  height: 95vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.cta_contact{
+  background: url(https://www.shutterstock.com/image-photo/contact-us-panoramic-banner-background-260nw-1921198244.jpg) fixed center center;
+  height: 95vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hover\:bg-gray-500:hover {
+  --tw-bg-opacity: 1!important;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity))!important;
+}
+.navBar1{
+  text-transform: uppercase;
+  padding: 3px 12px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: 0px 5px;
+  position: relative;
+}
+.navBar2{
+  text-transform: uppercase;
+  padding: 3px 12px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: 0px 5px;
+  position: relative;
+}
+.navBar3{
+  text-transform: uppercase;
+  padding: 3px 12px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: 0px 5px;
+  position: relative;
+}
+.navBar4{
+  text-transform: uppercase;
+  padding: 3px 12px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: 0px 5px;
+  position: relative;
+}
+.navBar5{
+  text-transform: uppercase;
+  padding: 3px 12px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: 0px 5px;
+  position: relative;
+}
+.navBar1::before{
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 7px;
+  border:4px solid rgba(211, 11, 112, 1);
+  border-width: 0 0 2px 2px;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.navBar1::after{
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  border:4px solid rgba(211, 11, 112, 1);
+  border-width: 2px 2px 0 0 ;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.navBar1:hover::before{
+  left: -5px;
+  bottom: -5px;
+  opacity: 1;
+}
+.navBar1:hover::after{
+  top: -5px;
+  right: -5px;
+  opacity: 1;
+}
+.navBar1:hover{
+ background-color: rgba(211, 11, 112, 1);
+ color: #fff;
+}
+.navBar2::before{
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 7px;
+  border:4px solid rgba(211, 11, 112, 1);
+  border-width: 0 0 2px 2px;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.navBar2::after{
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  border:4px solid rgba(211, 11, 112, 1);
+  border-width: 2px 2px 0 0 ;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.navBar2:hover::before{
+  left: -5px;
+  bottom: -5px;
+  opacity: 1;
+}
+.navBar2:hover::after{
+  top: -5px;
+  right: -5px;
+  opacity: 1;
+}
+.navBar2:hover{
+ background-color: rgba(211, 11, 112, 1);
+ color: #fff;
+}
+.navBar3::before{
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 7px;
+  border:4px solid rgba(211, 11, 112, 1);
+  border-width: 0 0 2px 2px;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.navBar3::after{
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  border:4px solid rgba(211, 11, 112, 1);
+  border-width: 2px 2px 0 0 ;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.navBar3:hover::before{
+  left: -5px;
+  bottom: -5px;
+  opacity: 1;
+}
+.navBar3:hover::after{
+  top: -5px;
+  right: -5px;
+  opacity: 1;
+}
+.navBar3:hover{
+ background-color: rgba(211, 11, 112, 1);
+ color: #fff;
+}
+.navBar4::before{
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 7px;
+  border:4px solid rgba(211, 11, 112, 1);
+  border-width: 0 0 2px 2px;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.navBar4::after{
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  border:4px solid rgba(211, 11, 112, 1);
+  border-width: 2px 2px 0 0 ;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.navBar4:hover::before{
+  left: -5px;
+  bottom: -5px;
+  opacity: 1;
+}
+.navBar4:hover::after{
+  top: -5px;
+  right: -5px;
+  opacity: 1;
+}
+.navBar4:hover{
+ background-color: rgba(211, 11, 112, 1);
+ color: #fff;
+}
+.navBar5::before{
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 7px;
+  border:4px solid rgba(211, 11, 112, 1);
+  border-width: 0 0 2px 2px;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.navBar5::after{
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  border:4px solid rgba(211, 11, 112, 1);
+  border-width: 2px 2px 0 0 ;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.navBar5:hover::before{
+  left: -5px;
+  bottom: -5px;
+  opacity: 1;
+}
+.navBar5:hover::after{
+  top: -5px;
+  right: -5px;
+  opacity: 1;
+}
+.navBar5:hover{
+ background-color: rgba(211, 11, 112, 1);
+ color: #fff;
+}
+.section{
+  position: relative;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 51px;
+  z-index: 2000;
+  transform: translateY(-50%);
+}
+.facebook {
+  background: #0E1B4D;
+  color: white;
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  
+}
+.talkCl{
+  color: #0E1B4D;
+  width: 100px;
+  font-size:1.4rem;
+  line-height: 25px;
+  font-weight: 600;
+}
+/* .talkCl{
+
+} */
+
+
+
+
+

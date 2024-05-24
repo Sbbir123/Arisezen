@@ -1,0 +1,62 @@
+/* You can style the details as well as the summary tag as you wish - not mandatory for the HTML component to work
+*/
+
+  
+  h1 {
+    color: black;
+    font-family: Serif, Sans Serif;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+/*   
+  section {
+    max-width: 70%;
+    width: 100%;
+} */
+  details {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  details p {
+    padding: 20px;
+  }
+  
+  summary {
+    background-color: transparent;
+    border: 1px solid aqua;
+    color: black;
+    padding: 20px;
+  }
+  
+  summary:hover {
+    background-color: #00438d;
+    border: 1px solid black;
+    transition: all 150ms ease-in-out;
+    color: white;
+  }
+  
+  details[open] summary {
+    background-color: #ffa700;
+    border: 1px solid black;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  details[open] {
+    background: #bfbdbd;
+  }
+  
+  details summary {
+    cursor: pointer;
+    transition: margin 150ms ease-out;
+  }
+  #arisezenfaq{
+    padding: 10rem;
+  }
